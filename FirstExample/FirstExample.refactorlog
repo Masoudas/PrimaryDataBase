@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="81341008-9362-4cfe-81d7-e0a0a6b8bf4f" ChangeDateTime="11/10/2018 12:06:09">
+    <Property Name="ElementName" Value="[dbo].[MemberShipData].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MemberShipData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SessionNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ba1fa19d-6772-4474-87ae-60686ecdae77" ChangeDateTime="11/10/2018 12:09:25">
+    <Property Name="ElementName" Value="[dbo].[MemberShipData].[SessionNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MemberShipData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MemberId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad308851-21c7-4636-898c-d269aba189eb" ChangeDateTime="11/10/2018 12:09:37">
+    <Property Name="ElementName" Value="[dbo].[MemberShipData].[Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MemberShipData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Phone" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8771af7e-89d8-40a6-a001-6d3713cdd965" ChangeDateTime="11/10/2018 12:09:52">
+    <Property Name="ElementName" Value="[dbo].[MemberShipData].[Handicapt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MemberShipData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Handicap" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9068019c-6faf-41d0-96cb-0ec90c141cbb" ChangeDateTime="11/10/2018 12:45:57">
+    <Property Name="ElementName" Value="[dbo].[Type].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Type]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Type" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7f46be02-291b-451c-966b-dc641a1b50f1" ChangeDateTime="11/10/2018 12:49:53">
+    <Property Name="ElementName" Value="[dbo].[FK_Member_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Member]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Type]" />
+  </Operation>
+</Operations>
